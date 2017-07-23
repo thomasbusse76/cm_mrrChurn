@@ -5,6 +5,7 @@ ChartMogul\Configuration::getDefaultConfiguration()
 ->setAccountToken('YOUR_ACCOUNT_TOKEN')
 ->setSecretKey('YOUR_ACCOUNT_KEY');
 
+
 $mrrChurn =  (ChartMogul\Metrics::mrrChurnRate([
     'start-date'  => '2015-08-01',
     'end-date'    => '2016-08-31',
