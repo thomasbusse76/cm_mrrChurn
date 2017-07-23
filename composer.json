@@ -1,0 +1,5 @@
+{
+"require":  {
+            "chartmogul/chartmogul-php": "~1.1"
+            }
+}
