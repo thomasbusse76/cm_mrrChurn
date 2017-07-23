@@ -32,3 +32,4 @@ for ($x = 0; $x < 3; $x++) {
     $year = date("Y", $time);
     print_r("-" . $month . " " . $year . " (" . $mrrChurnEntries[$x]["mrr_churn_rate"] . "%) <br />");
 }
+?>
