@@ -2,8 +2,8 @@
 require('./vendor/autoload.php');
 
 ChartMogul\Configuration::getDefaultConfiguration()
-->setAccountToken('2bb03f684bbc42051654721dfbf34375')
-->setSecretKey('3dbbe4120d1328eee0f3fe4a129b96cb');
+->setAccountToken('xxx')
+->setSecretKey('xxx');
 
 $mrrChurn =  (ChartMogul\Metrics::mrrChurnRate([
     'start-date'  => '2015-08-01',
